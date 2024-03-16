@@ -1,0 +1,59 @@
+@import 'styles/mixins.scss';
+
+.p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.postTitle {
+  font-size: 2rem;
+}
+
+.postHeading2,
+.postHeading3,
+.postHeading4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.postHeading2 {
+  margin-top: 2rem;
+}
+
+.postHeading3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.postHeading4 {
+  font-size: 1.1rem;
+}
+
+.aside {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: #f3f3f3;
+  border-radius: 0 1rem 1rem 1rem;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid pink;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+
+  h3,
+  h2 {
+    margin-top: 1rem;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding: 1rem;
+    border-radius: 0;
+  }
+}

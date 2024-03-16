@@ -1,0 +1,21 @@
+@import 'styles/mixins';
+
+.h1 {
+  margin-top: 2rem;
+}
+
+.postPreview {
+  margin-top: 2rem;
+
+  @include media-breakpoint-down(lg) {
+    flex-direction: column;
+  }
+}
+
+.postContentPreviewContainer {
+  padding: 1rem 2rem;
+
+  @include media-breakpoint-down(lg) {
+    padding: 1rem;
+  }
+}

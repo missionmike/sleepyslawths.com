@@ -1,0 +1,84 @@
+@import 'code/github-dark.min.css';
+@import 'bootstrap/scss/bootstrap';
+@import 'variables';
+@import 'social';
+@import 'blog';
+@import 'mixins';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Source Code Pro';
+  line-height: 1.5rem;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  color: $blue;
+  text-decoration: underline;
+}
+
+.lightgray {
+  color: gray;
+}
+
+h1 {
+  // text-transform: uppercase;
+  letter-spacing: 0;
+  font-size: 2rem;
+}
+
+.prose {
+  h1 {
+    font-size: 2.5rem;
+    letter-spacing: -0.05rem;
+    margin: 0 0 2rem 0;
+  }
+  h2 {
+    margin: 3rem 0 2rem;
+    text-transform: uppercase;
+  }
+  code {
+    background-color: #eee;
+    padding: 0.3rem 0.7rem;
+  }
+  pre code {
+    background-color: #012;
+    padding: 1rem;
+  }
+}
+
+p,
+.prose p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: #333;
+}
+
+iframe.w-full.relative {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.post-featured-image-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+
+  img {
+    object-fit: cover;
+  }
+
+  @include media-breakpoint-down(sm) {
+    height: 200px;
+  }
+}

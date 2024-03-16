@@ -1,2 +1,1 @@
-# sleepyslawths.com
-Website for our Sleepy Slawths family project 🦥 🎮
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).

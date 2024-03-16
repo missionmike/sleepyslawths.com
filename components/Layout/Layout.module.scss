@@ -1,0 +1,18 @@
+.layoutWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  background: linear-gradient(150deg, #fff, rgb(241, 219, 255));
+}
+
+.layout {
+  max-width: 1400px;
+
+  :global .prose {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top: 4rem;
+  }
+}

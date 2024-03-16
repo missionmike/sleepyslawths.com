@@ -1,0 +1,19 @@
+.previewContainer {
+  position: relative;
+}
+
+.previewTitle {
+  overflow: hidden;
+  margin-bottom: 2rem;
+  width: 100%;
+
+  span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.writtenDate {
+  font-style: italic;
+  color: gray;
+}

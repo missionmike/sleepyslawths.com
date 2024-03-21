@@ -23,21 +23,46 @@ export default function Page() {
             alt="Sleepy Slawths profile photo"
             className={`rounded ${styles.profileImg}`}
           ></Image>
-          The Sleepy Slawths are a family of five who love to play video games together and share
-          our experiences with the world. We also vlog about our daily lives and adventures.
-          Subscribe to our YouTube channels and follow us on social media to stay up to date with
-          our latest content.
+          We are a family who loves to play video games together and share our experiences with the
+          world. We vlog about our daily lives and adventures. Subscribe to our YouTube channels and
+          follow us on social media to stay up to date with our latest content!
         </p>
         <p>
-          We are a Christian family who loves to have fun and share our experiences with the world.
-          We believe that family is important and that spending time together is one of the best
-          ways to build strong relationships. We hope that our content will inspire others to spend
-          time with their families and create lasting memories.
+          <h2>Our Channels</h2>
+          <ul>
+            <li>
+              <a
+                href="https://www.youtube.com/@sleepyslawthgaming"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sleepy Slawth Gaming
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/@sleepyslawths"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sleepy Slawths Family Vlog
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/@michaelndad"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Michael &amp; Dad Gaming &amp; Stuff
+              </a>
+            </li>
+          </ul>
         </p>
         <p>
           For any questions, please reach out on any of our social media platforms or{' '}
-          <a href="mailto:holler@missionmike.dev" style={{ textDecoration: 'none' }}>
-            holler@missionmike.dev
+          <a href="mailto:holler@sleepyslawths.com" style={{ textDecoration: 'none' }}>
+            holler@sleepyslawths.com
           </a>
         </p>
       </Container>

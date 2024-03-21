@@ -31,7 +31,7 @@ exports[`SocialBar component renders the component 1`] = `
       href="https://www.tiktok.com/@sleepyslawths"
       rel="noopener noreferrer"
       target="_blank"
-      title="Follow Mission Mike on TikTok"
+      title="Follow Sleepy Slawths on TikTok"
     >
       <svg
         clip-rule="evenodd"
@@ -52,7 +52,7 @@ exports[`SocialBar component renders the component 1`] = `
       href="https://www.instagram.com/sleepyslawths"
       rel="noopener noreferrer"
       target="_blank"
-      title="Follow Mission Mike on Instagram"
+      title="Follow Sleepy Slawths on Instagram"
     >
       <div
         style="width: 0px; height: 0px;"
@@ -194,7 +194,7 @@ exports[`SocialBar component renders the component 1`] = `
       href="https://facebook.com/sleepyslawths"
       rel="noopener noreferrer"
       target="_blank"
-      title="Follow Mission Mike on Facebook"
+      title="Follow Sleepy Slawths on Facebook"
     >
       <svg
         class="svg"

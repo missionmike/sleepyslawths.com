@@ -52,7 +52,7 @@ export default function Home({
               <ImageWrapper>
                 <Image
                   src="/static/images/family-gaming.jpg"
-                  alt={`Photo of Mission Mike playing videogames with his kids.
+                  alt={`Photo of Slawth Dad (Mission Mike) playing videogames with Michael (Right), Maia (Middle) and Melody (Left).
                    They are sitting at a computer desk with a green screen behind them.`}
                   style={{ objectFit: 'cover' }}
                   fill

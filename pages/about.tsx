@@ -22,42 +22,14 @@ export default function Page() {
             height={300}
             alt="Sleepy Slawths profile photo"
             className={`rounded ${styles.profileImg}`}
-          ></Image>
-          We are a family who loves to play video games together and share our experiences with the
-          world. We vlog about our daily lives and adventures. Subscribe to our YouTube channels and
-          follow us on social media to stay up to date with our latest content!
+          />
+          We are Sleepy Slawths! A family who loves to play together and share our experiences with
+          the world. Subscribe to our YouTube channels and follow us on social media to stay up to
+          date with our latest content!
         </p>
         <p>
-          <h2>Our Channels</h2>
-          <ul>
-            <li>
-              <a
-                href="https://www.youtube.com/@sleepyslawthgaming"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sleepy Slawth Gaming
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/@sleepyslawths"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sleepy Slawths Family Vlog
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/@michaelndad"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Michael &amp; Dad Gaming &amp; Stuff
-              </a>
-            </li>
-          </ul>
+          We hope that our content will inspire others to spend time with their families and create
+          lasting memories, whether they&apos;e recorded or not.
         </p>
         <p>
           For any questions, please reach out on any of our social media platforms or{' '}

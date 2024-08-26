@@ -14,8 +14,12 @@ const Footer = () => {
       <br />
       &nbsp;
       <br />
-      <a href="mailto:holler@missionmike.dev" style={{ textDecoration: 'none' }}>
+      <a href="mailto:holler@sleepyslawths.com" style={{ textDecoration: 'none' }}>
         Send a message 📧
+      </a>{' '}
+      |{' '}
+      <a href="https://slawths.vip/discord" target="_blank" rel="noopener noreferrer">
+        Join our Discord
       </a>
     </footer>
   );

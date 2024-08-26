@@ -19,7 +19,7 @@ const PostPage = ({ frontMatter, mdxSource }) => {
       isProse={true}
       ogImage={ogImage}
       description={frontMatter?.summary}
-      title={`${frontMatter?.title ? frontMatter.title + ' | ' : ''}missionmike.dev`}
+      title={`${frontMatter?.title ? frontMatter.title + ' | ' : ''}sleepyslawths.com`}
     >
       <h1>{frontMatter.title}</h1>
       {featuredImage ? (

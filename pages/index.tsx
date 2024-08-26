@@ -23,11 +23,10 @@ export default function Home({
   return (
     <Layout
       pageSEO="common"
-      title={'Sleepy Slawths | Family Vlog & Gaming Channel'}
+      title={'Sleepy Slawths | Family Content Creators'}
       description={`Join us in family and gaming fun! We are 
-        a family of five who love to play video games together 
-        and share our experiences with the world. We also vlog 
-        about our daily lives and adventures. Subscribe to our 
+        a family of six who love to play video games together 
+        and share our experiences with the world. Subscribe to our 
         YouTube channels and follow us on social media to 
         stay up to date with our latest content`}
     >
@@ -44,7 +43,7 @@ export default function Home({
                 target="_blank"
                 style={{ textDecoration: 'none' }}
               >
-                vlog and gaming content creators
+                content creators
               </a>
             </span>
             <SocialBar />

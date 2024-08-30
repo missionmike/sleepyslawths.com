@@ -15,5 +15,14 @@
 
 .writtenDate {
   font-style: italic;
-  color: gray;
+  font-size: 0.9rem;
+  color: blueviolet;
+  display: inline-block;
+  margin: 0;
+
+  &:last-child {
+    border-left: 1px solid gray;
+    padding-left: 16px;
+    margin-left: 16px;
+  }
 }

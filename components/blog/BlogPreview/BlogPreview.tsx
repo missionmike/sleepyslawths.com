@@ -9,29 +9,44 @@ const BlogPreview = ({ post = {} }: { post: Post }) => {
   if (!post?.content || !post?.path) return;
 
   const { data: frontMatter, content } = matter(post.content);
+
   const summary = frontMatter?.summary
     ? frontMatter.summary
     : removeMd(content.split(' ').slice(0, 50).join(' ').substring(0, 500));
+
   const briefTitle =
     frontMatter.title.length > 50 ? `${frontMatter.title.substring(0, 50)}...` : frontMatter.title;
+
   const writtenDate = frontMatter?.date ? frontMatter.date : null;
+  const updatedDate = writtenDate && frontMatter?.updated ? frontMatter.updated : writtenDate;
 
   return (
     <div className={styles.previewContainer}>
       <h2 className={styles.previewTitle} title={frontMatter.title}>
         <Link href={post.path}>{briefTitle}</Link>
       </h2>
-      {writtenDate ? (
-        <span className={styles.writtenDate}>
-          Updated:{' '}
-          {new Date(writtenDate).toLocaleDateString('en-us', {
-            weekday: 'long',
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric',
-          })}
-        </span>
-      ) : null}
+      <span>
+        {writtenDate ? (
+          <span className={styles.writtenDate}>
+            Written{' '}
+            {new Date(writtenDate).toLocaleDateString('en-us', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            })}
+          </span>
+        ) : null}
+        {updatedDate ? (
+          <span className={styles.writtenDate}>
+            Updated{' '}
+            {new Date(updatedDate).toLocaleDateString('en-us', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            })}
+          </span>
+        ) : null}
+      </span>
       <p>
         {parse(summary)} [...] <Link href={post.path}>Read More.</Link>
       </p>
